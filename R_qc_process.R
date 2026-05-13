@@ -119,4 +119,4 @@ all_merge <- merge(x = all_list[[1]],
 #save data
 names(all_merge@meta.data)
 table(all_merge@meta.data$orig.ident)
-saveRDS(all_merge, file ="chicken_hip_scRNA_qc_merged_3_sample8.rds")
+saveRDS(all_merge, file ="chicken_hip_scRNA_qc_merged_8_samples.rds")
